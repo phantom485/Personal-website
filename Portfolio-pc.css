@@ -1,0 +1,150 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+				/* navigation section */
+.navbar{
+		
+		position: sticky;
+		top: 0;
+}
+.nav-head h1{
+				font-size: 30px;
+}
+.nav-logo{
+				text-align: left;
+}
+.nav-head{
+				text-align: left;
+}
+.navbar .nav-menu{
+				flex-direction: row;
+				text-align: right;
+}
+.nav-menu a{
+				padding: 10px 17px;
+				margin: 20px 10px;
+}
+
+				/* end of navigation section */
+				/* about section */
+.info{
+				width: 50%;
+}
+
+.skills{
+				width: 50%;
+				position: absolute;
+				left: 50%;
+				top: 77.5px;
+}
+.about-container{
+				height: 420px;
+}
+				/* end of about section */
+				/* education section */
+				
+.edu-item{
+		height: 400px;
+}
+.edu-content{
+		width: 45%;
+}
+.edu-content:nth-child(2){
+		position: absolute;
+		left: 50%;
+}
+.edu-content:nth-child(3){
+		position: absolute;
+		left: 50%;
+		top: 51%;
+}
+.border::before{
+		content:'';
+		position: absolute;
+		left: 20px;
+		width: 1px;
+		height: 35%;
+		background: gray;
+}
+.border::after{
+		content:'';
+		position: absolute;
+		left: 16px;
+		width: 7px;
+		height: 7px;
+		border-radius: 50%;
+		background: gold;
+		border: 1px solid rgba(255,255,255,0.05);
+		transform: translateY(-115px);
+}
+.border2::before{
+		content:'';
+		position: absolute;
+		left: -7px;
+		width: 1px;
+		height: 85%;
+		background: gray;
+}
+.border2::after{
+		content:'';
+		position: absolute;
+		left: 16px;
+		width: 7px;
+		height: 7px;
+		border-radius: 50%;
+		background: gold;
+		border: 1px solid rgba(255,255,255,0.05);
+		transform: translate(-27px,-115px);
+}
+
+/* contact section */
+.contact-item{
+		height: 400px;
+}
+.contact-email{
+		margin-top: 60px;
+}
+.contact-email h3{
+		transform: translateX(-25%);
+		font-size: 1rem;
+}
+.contact-email input,textarea{
+		width: 50%;
+}
+form{
+		text-align: left;
+}
+.contact-email input[type="submit"]{
+		text-align: center;
+		transform: translate(-320px,30px);
+}
+.contact-email input[type="reset"]{
+		text-align: center;
+		transform: translate(-300px,30px);
+}
+.contact-icon{
+		width: 50%;
+		position: relative;
+		left: 50%;
+		top: -317px;
+}
+
+ 						/* footer section */
+ 						
+.footer-menu a{
+		font-size: 0.8rem;
+		margin:10px;
+}
+.footer-desc p{
+		font-size: 0.8rem;
+}
